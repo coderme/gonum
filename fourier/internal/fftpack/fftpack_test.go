@@ -14,7 +14,7 @@ import (
 	"reflect"
 	"testing"
 
-	"gonum.org/v1/gonum/floats"
+	"github.com/coderme/gonum/floats"
 )
 
 func TestRfft(t *testing.T) {

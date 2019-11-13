@@ -8,10 +8,10 @@ import (
 	"math"
 	"testing"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/iterator"
-	"gonum.org/v1/gonum/graph/simple"
-	"gonum.org/v1/gonum/mat"
+	"github.com/coderme/gonum/graph"
+	"github.com/coderme/gonum/graph/iterator"
+	"github.com/coderme/gonum/graph/simple"
+	"github.com/coderme/gonum/mat"
 )
 
 type weightedDirectedBuilder interface {

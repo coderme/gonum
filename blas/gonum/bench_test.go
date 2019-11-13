@@ -5,8 +5,8 @@
 package gonum
 
 import (
-	"gonum.org/v1/gonum/blas"
-	"gonum.org/v1/gonum/blas/testblas"
+	"github.com/coderme/gonum/blas"
+	"github.com/coderme/gonum/blas/testblas"
 )
 
 const (

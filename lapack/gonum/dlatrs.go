@@ -7,8 +7,8 @@ package gonum
 import (
 	"math"
 
-	"gonum.org/v1/gonum/blas"
-	"gonum.org/v1/gonum/blas/blas64"
+	"github.com/coderme/gonum/blas"
+	"github.com/coderme/gonum/blas/blas64"
 )
 
 // Dlatrs solves a triangular system of equations scaled to prevent overflow. It

@@ -7,9 +7,9 @@ package optimize
 import (
 	"testing"
 
-	"gonum.org/v1/gonum/mat"
-	"gonum.org/v1/gonum/optimize/functions"
-	"gonum.org/v1/gonum/stat/distmv"
+	"github.com/coderme/gonum/mat"
+	"github.com/coderme/gonum/optimize/functions"
+	"github.com/coderme/gonum/stat/distmv"
 )
 
 func TestGuessAndCheck(t *testing.T) {

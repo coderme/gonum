@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"testing"
 
-	"gonum.org/v1/gonum/floats"
+	"github.com/coderme/gonum/floats"
 )
 
 // intSosMatch returns true if the two slices of slices are equal.

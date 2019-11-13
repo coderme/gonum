@@ -7,8 +7,8 @@
 package mat
 
 import (
-	"gonum.org/v1/gonum/blas/blas64"
-	"gonum.org/v1/netlib/blas/netlib"
+	"github.com/coderme/gonum/blas/blas64"
+	"github.com/coderme/netlib/blas/netlib"
 )
 
 func init() {

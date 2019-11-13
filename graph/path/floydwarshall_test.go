@@ -10,9 +10,9 @@ import (
 	"sort"
 	"testing"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/internal/ordered"
-	"gonum.org/v1/gonum/graph/path/internal/testgraphs"
+	"github.com/coderme/gonum/graph"
+	"github.com/coderme/gonum/graph/internal/ordered"
+	"github.com/coderme/gonum/graph/path/internal/testgraphs"
 )
 
 func TestFloydWarshall(t *testing.T) {

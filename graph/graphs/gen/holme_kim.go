@@ -10,9 +10,9 @@ import (
 
 	"golang.org/x/exp/rand"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/simple"
-	"gonum.org/v1/gonum/stat/sampleuv"
+	"github.com/coderme/gonum/graph"
+	"github.com/coderme/gonum/graph/simple"
+	"github.com/coderme/gonum/stat/sampleuv"
 )
 
 // TunableClusteringScaleFree constructs a subgraph in the destination, dst, of order n.

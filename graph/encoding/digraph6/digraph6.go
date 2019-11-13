@@ -3,7 +3,7 @@
 // license that can be found in the LICENSE file.
 
 // Package digraph6 implements graphs specified by digraph6 strings.
-package digraph6 // import "gonum.org/v1/gonum/graph/encoding/digraph6"
+package digraph6 // import "github.com/coderme/gonum/graph/encoding/digraph6"
 
 import (
 	"fmt"
@@ -11,10 +11,10 @@ import (
 	"sort"
 	"strings"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/internal/ordered"
-	"gonum.org/v1/gonum/graph/iterator"
-	"gonum.org/v1/gonum/graph/simple"
+	"github.com/coderme/gonum/graph"
+	"github.com/coderme/gonum/graph/internal/ordered"
+	"github.com/coderme/gonum/graph/iterator"
+	"github.com/coderme/gonum/graph/simple"
 )
 
 // Graph is a digraph6-represented directed graph.

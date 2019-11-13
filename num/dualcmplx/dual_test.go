@@ -10,7 +10,7 @@ import (
 	"math/cmplx"
 	"testing"
 
-	"gonum.org/v1/gonum/floats"
+	"github.com/coderme/gonum/floats"
 )
 
 var formatTests = []struct {

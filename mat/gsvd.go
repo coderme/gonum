@@ -5,10 +5,10 @@
 package mat
 
 import (
-	"gonum.org/v1/gonum/blas/blas64"
-	"gonum.org/v1/gonum/floats"
-	"gonum.org/v1/gonum/lapack"
-	"gonum.org/v1/gonum/lapack/lapack64"
+	"github.com/coderme/gonum/blas/blas64"
+	"github.com/coderme/gonum/floats"
+	"github.com/coderme/gonum/lapack"
+	"github.com/coderme/gonum/lapack/lapack64"
 )
 
 // GSVDKind specifies the treatment of singular vectors during a GSVD

@@ -9,8 +9,8 @@ import (
 	"reflect"
 	"testing"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/simple"
+	"github.com/coderme/gonum/graph"
+	"github.com/coderme/gonum/graph/simple"
 )
 
 type changes struct {

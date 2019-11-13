@@ -10,8 +10,8 @@ import (
 	"testing"
 
 	"golang.org/x/exp/rand"
-	"gonum.org/v1/gonum/blas"
-	"gonum.org/v1/gonum/floats"
+	"github.com/coderme/gonum/blas"
+	"github.com/coderme/gonum/floats"
 )
 
 // throwPanic will throw unexpected panics if true, or will just report them as errors if false

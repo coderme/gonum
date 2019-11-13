@@ -9,8 +9,8 @@ import (
 	"math"
 	"sort"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/simple"
+	"github.com/coderme/gonum/graph"
+	"github.com/coderme/gonum/graph/simple"
 )
 
 // WeightedBuilder is a type that can add nodes and weighted edges.

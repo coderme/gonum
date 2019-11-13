@@ -7,9 +7,9 @@ package dot_test
 import (
 	"fmt"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/encoding/dot"
-	"gonum.org/v1/gonum/graph/simple"
+	"github.com/coderme/gonum/graph"
+	"github.com/coderme/gonum/graph/encoding/dot"
+	"github.com/coderme/gonum/graph/simple"
 )
 
 type edgeWithPorts struct {

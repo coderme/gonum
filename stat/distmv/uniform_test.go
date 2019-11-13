@@ -8,7 +8,7 @@ import (
 	"math"
 	"testing"
 
-	"gonum.org/v1/gonum/spatial/r1"
+	"github.com/coderme/gonum/spatial/r1"
 )
 
 func TestUniformEntropy(t *testing.T) {

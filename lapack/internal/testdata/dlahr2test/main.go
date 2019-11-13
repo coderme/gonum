@@ -20,7 +20,7 @@ import (
 
 	"golang.org/x/exp/rand"
 
-	"gonum.org/v1/gonum/lapack/internal/testdata/netlib"
+	"github.com/coderme/gonum/lapack/internal/testdata/netlib"
 )
 
 type Dlahr2Test struct {

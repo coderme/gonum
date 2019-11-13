@@ -11,8 +11,8 @@ import (
 
 	"golang.org/x/exp/rand"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/internal/ordered"
+	"github.com/coderme/gonum/graph"
+	"github.com/coderme/gonum/graph/internal/ordered"
 )
 
 // UndirectedMutator is an undirected graph builder that can remove edges.

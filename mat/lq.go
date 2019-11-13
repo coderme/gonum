@@ -7,10 +7,10 @@ package mat
 import (
 	"math"
 
-	"gonum.org/v1/gonum/blas"
-	"gonum.org/v1/gonum/blas/blas64"
-	"gonum.org/v1/gonum/lapack"
-	"gonum.org/v1/gonum/lapack/lapack64"
+	"github.com/coderme/gonum/blas"
+	"github.com/coderme/gonum/blas/blas64"
+	"github.com/coderme/gonum/lapack"
+	"github.com/coderme/gonum/lapack/lapack64"
 )
 
 const badLQ = "mat: invalid LQ factorization"

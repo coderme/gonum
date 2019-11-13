@@ -10,8 +10,8 @@ import (
 
 	"golang.org/x/exp/rand"
 
-	"gonum.org/v1/gonum/mat"
-	"gonum.org/v1/gonum/stat/distmv"
+	"github.com/coderme/gonum/mat"
+	"github.com/coderme/gonum/stat/distmv"
 )
 
 var (

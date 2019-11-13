@@ -10,10 +10,10 @@ import (
 	"sort"
 	"text/tabwriter"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/product"
-	"gonum.org/v1/gonum/graph/simple"
-	"gonum.org/v1/gonum/graph/topo"
+	"github.com/coderme/gonum/graph"
+	"github.com/coderme/gonum/graph/product"
+	"github.com/coderme/gonum/graph/simple"
+	"github.com/coderme/gonum/graph/topo"
 )
 
 // atom is a graph.Node representing an atom in a molecule.

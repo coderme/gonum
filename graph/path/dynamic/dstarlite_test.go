@@ -13,10 +13,10 @@ import (
 	"strings"
 	"testing"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/path"
-	"gonum.org/v1/gonum/graph/path/internal/testgraphs"
-	"gonum.org/v1/gonum/graph/simple"
+	"github.com/coderme/gonum/graph"
+	"github.com/coderme/gonum/graph/path"
+	"github.com/coderme/gonum/graph/path/internal/testgraphs"
+	"github.com/coderme/gonum/graph/simple"
 )
 
 var (

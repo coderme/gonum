@@ -11,9 +11,9 @@ import (
 
 	"golang.org/x/exp/rand"
 
-	"gonum.org/v1/gonum/blas"
-	"gonum.org/v1/gonum/floats"
-	"gonum.org/v1/gonum/lapack"
+	"github.com/coderme/gonum/blas"
+	"github.com/coderme/gonum/floats"
+	"github.com/coderme/gonum/lapack"
 )
 
 type Dlantrer interface {

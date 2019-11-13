@@ -9,9 +9,9 @@ import (
 	"math"
 	"testing"
 
-	"gonum.org/v1/gonum/floats"
-	"gonum.org/v1/gonum/mat"
-	"gonum.org/v1/gonum/optimize/functions"
+	"github.com/coderme/gonum/floats"
+	"github.com/coderme/gonum/mat"
+	"github.com/coderme/gonum/optimize/functions"
 )
 
 type unconstrainedTest struct {

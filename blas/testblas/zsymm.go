@@ -9,7 +9,7 @@ import (
 	"testing"
 
 	"golang.org/x/exp/rand"
-	"gonum.org/v1/gonum/blas"
+	"github.com/coderme/gonum/blas"
 )
 
 type Zsymmer interface {

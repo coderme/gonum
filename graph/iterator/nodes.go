@@ -7,7 +7,7 @@ package iterator
 import (
 	"reflect"
 
-	"gonum.org/v1/gonum/graph"
+	"github.com/coderme/gonum/graph"
 )
 
 // OrderedNodes implements the graph.Nodes and graph.NodeSlicer interfaces.

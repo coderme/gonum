@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"testing"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/encoding"
-	"gonum.org/v1/gonum/graph/multi"
-	"gonum.org/v1/gonum/graph/simple"
+	"github.com/coderme/gonum/graph"
+	"github.com/coderme/gonum/graph/encoding"
+	"github.com/coderme/gonum/graph/multi"
+	"github.com/coderme/gonum/graph/simple"
 )
 
 func TestRoundTrip(t *testing.T) {

@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"math"
 
-	"gonum.org/v1/gonum/floats"
-	"gonum.org/v1/gonum/mat"
+	"github.com/coderme/gonum/floats"
+	"github.com/coderme/gonum/mat"
 )
 
 // TODO(btracey): Could have a solver structure with an abstract factorizer. With

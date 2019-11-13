@@ -7,7 +7,7 @@ package combin_test
 import (
 	"fmt"
 
-	"gonum.org/v1/gonum/stat/combin"
+	"github.com/coderme/gonum/stat/combin"
 )
 
 func ExampleCartesian() {

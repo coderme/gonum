@@ -9,8 +9,8 @@ import (
 	"math"
 	"testing"
 
-	"gonum.org/v1/gonum/floats"
-	"gonum.org/v1/gonum/num/quat"
+	"github.com/coderme/gonum/floats"
+	"github.com/coderme/gonum/num/quat"
 )
 
 var formatTests = []struct {

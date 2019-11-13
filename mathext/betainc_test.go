@@ -7,7 +7,7 @@ package mathext
 import (
 	"testing"
 
-	"gonum.org/v1/gonum/floats"
+	"github.com/coderme/gonum/floats"
 )
 
 func TestIncBeta(t *testing.T) {

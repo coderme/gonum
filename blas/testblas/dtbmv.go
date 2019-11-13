@@ -7,7 +7,7 @@ package testblas
 import (
 	"testing"
 
-	"gonum.org/v1/gonum/blas"
+	"github.com/coderme/gonum/blas"
 )
 
 type Dtbmver interface {

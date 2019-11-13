@@ -5,7 +5,7 @@
 The core packages of the Gonum suite are written in pure Go with some assembly.
 Installation is done using `go get`.
 ```
-go get -u gonum.org/v1/gonum/...
+go get -u github.com/coderme/gonum/...
 ```
 
 ## Supported Go versions
@@ -33,9 +33,9 @@ The current list of non-internal tags is as follows:
 - appengine — do not use assembly or unsafe
 - safe — synonym for appengine
 - bounds — use bounds checks even in internal calls
-- cblas — use CGO gonum.org/v1/netlib/blas/netlib BLAS implementation in tests (only in [mat package](https://godoc.org/gonum.org/v1/gonum/mat))
+- cblas — use CGO github.com/coderme/netlib/blas/netlib BLAS implementation in tests (only in [mat package](https://godoc.org/github.com/coderme/gonum/mat))
 - noasm — do not use assembly implementations
-- tomita — use [Tomita, Tanaka, Takahashi pivot choice](https://doi.org/10.1016%2Fj.tcs.2006.06.015) for maximimal clique calculation, otherwise use random pivot (only in [topo package](https://godoc.org/gonum.org/v1/gonum/graph/topo))
+- tomita — use [Tomita, Tanaka, Takahashi pivot choice](https://doi.org/10.1016%2Fj.tcs.2006.06.015) for maximimal clique calculation, otherwise use random pivot (only in [topo package](https://godoc.org/github.com/coderme/gonum/graph/topo))
 
 
 ## Issues

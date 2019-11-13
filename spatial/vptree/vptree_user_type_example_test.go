@@ -9,7 +9,7 @@ import (
 	"log"
 	"math"
 
-	"gonum.org/v1/gonum/spatial/vptree"
+	"github.com/coderme/gonum/spatial/vptree"
 )
 
 func Example_accessiblePublicTransport() {

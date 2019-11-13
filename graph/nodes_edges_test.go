@@ -8,10 +8,10 @@ import (
 	"reflect"
 	"testing"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/iterator"
-	"gonum.org/v1/gonum/graph/multi"
-	"gonum.org/v1/gonum/graph/simple"
+	"github.com/coderme/gonum/graph"
+	"github.com/coderme/gonum/graph/iterator"
+	"github.com/coderme/gonum/graph/multi"
+	"github.com/coderme/gonum/graph/simple"
 )
 
 // nodes

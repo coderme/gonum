@@ -16,10 +16,10 @@ import (
 	"strings"
 	"testing"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/internal/ordered"
-	"gonum.org/v1/gonum/graph/iterator"
-	"gonum.org/v1/plot/cmpimg"
+	"github.com/coderme/gonum/graph"
+	"github.com/coderme/gonum/graph/internal/ordered"
+	"github.com/coderme/gonum/graph/iterator"
+	"github.com/coderme/plot/cmpimg"
 )
 
 // orderedGraph wraps a graph.Graph ensuring consistent ordering of nodes

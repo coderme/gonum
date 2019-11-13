@@ -10,9 +10,9 @@ import (
 	"testing"
 
 	"golang.org/x/exp/rand"
-	"gonum.org/v1/gonum/blas"
-	"gonum.org/v1/gonum/blas/blas64"
-	"gonum.org/v1/gonum/floats"
+	"github.com/coderme/gonum/blas"
+	"github.com/coderme/gonum/blas/blas64"
+	"github.com/coderme/gonum/floats"
 )
 
 type Dlatbser interface {

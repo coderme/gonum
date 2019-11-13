@@ -11,9 +11,9 @@ import (
 
 	"golang.org/x/exp/rand"
 
-	"gonum.org/v1/gonum/blas"
-	"gonum.org/v1/gonum/blas/blas64"
-	"gonum.org/v1/gonum/lapack"
+	"github.com/coderme/gonum/blas"
+	"github.com/coderme/gonum/blas/blas64"
+	"github.com/coderme/gonum/lapack"
 )
 
 type Dtrexcer interface {

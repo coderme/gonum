@@ -8,11 +8,11 @@ import (
 	"path/filepath"
 	"testing"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/simple"
-	"gonum.org/v1/gonum/spatial/r2"
+	"github.com/coderme/gonum/graph"
+	"github.com/coderme/gonum/graph/simple"
+	"github.com/coderme/gonum/spatial/r2"
 	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/vg"
+	"github.com/coderme/plot/vg"
 )
 
 // tag is modified in isomap_noasm_test.go to "_noasm" when any

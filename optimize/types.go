@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"gonum.org/v1/gonum/mat"
+	"github.com/coderme/gonum/mat"
 )
 
 const defaultGradientAbsTol = 1e-12

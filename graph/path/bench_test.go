@@ -8,9 +8,9 @@ import (
 	"fmt"
 	"testing"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/graphs/gen"
-	"gonum.org/v1/gonum/graph/simple"
+	"github.com/coderme/gonum/graph"
+	"github.com/coderme/gonum/graph/graphs/gen"
+	"github.com/coderme/gonum/graph/simple"
 )
 
 var (

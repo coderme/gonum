@@ -7,7 +7,7 @@ package gen
 import (
 	"testing"
 
-	"gonum.org/v1/gonum/graph/simple"
+	"github.com/coderme/gonum/graph/simple"
 )
 
 func TestTunableClusteringScaleFree(t *testing.T) {

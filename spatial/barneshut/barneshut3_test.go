@@ -12,8 +12,8 @@ import (
 
 	"golang.org/x/exp/rand"
 
-	"gonum.org/v1/gonum/floats"
-	"gonum.org/v1/gonum/spatial/r3"
+	"github.com/coderme/gonum/floats"
+	"github.com/coderme/gonum/spatial/r3"
 )
 
 type particle3 struct {

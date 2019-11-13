@@ -5,9 +5,9 @@
 package gonum
 
 import (
-	"gonum.org/v1/gonum/blas"
-	"gonum.org/v1/gonum/blas/blas64"
-	"gonum.org/v1/gonum/lapack"
+	"github.com/coderme/gonum/blas"
+	"github.com/coderme/gonum/blas/blas64"
+	"github.com/coderme/gonum/lapack"
 )
 
 // Dgehrd reduces a block of a real n×n general matrix A to upper Hessenberg

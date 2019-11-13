@@ -10,11 +10,11 @@ import (
 
 	"golang.org/x/exp/rand"
 
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/simple"
-	"gonum.org/v1/gonum/spatial/r2"
+	"github.com/coderme/gonum/graph"
+	"github.com/coderme/gonum/graph/simple"
+	"github.com/coderme/gonum/spatial/r2"
 	"gonum.org/v1/plot"
-	"gonum.org/v1/plot/vg"
+	"github.com/coderme/plot/vg"
 )
 
 var eadesR2Tests = []struct {

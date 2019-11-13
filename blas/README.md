@@ -1,11 +1,11 @@
-# Gonum BLAS [![GoDoc](https://godoc.org/gonum.org/v1/gonum/blas?status.svg)](https://godoc.org/gonum.org/v1/gonum/blas)
+# Gonum BLAS [![GoDoc](https://godoc.org/github.com/coderme/gonum/blas?status.svg)](https://godoc.org/github.com/coderme/gonum/blas)
 
 A collection of packages to provide BLAS functionality for the [Go programming
 language](http://golang.org)
 
 ## Installation
 ```sh
-  go get gonum.org/v1/gonum/blas/...
+  go get github.com/coderme/gonum/blas/...
 ```
 
 ## Packages
@@ -30,7 +30,7 @@ package main
 import (
 	"fmt"
 
-	"gonum.org/v1/gonum/blas/blas64"
+	"github.com/coderme/gonum/blas/blas64"
 )
 
 func main() {
@@ -44,4 +44,4 @@ func main() {
 Wrappers for an implementation of the double (i.e., `complex128`) and single (`complex64`) 
 precision complex parts of the blas API.
 
-Currently blas/cblas64 and blas/cblas128 require gonum.org/v1/netlib/blas.
+Currently blas/cblas64 and blas/cblas128 require github.com/coderme/netlib/blas.

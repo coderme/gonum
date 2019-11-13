@@ -5,8 +5,8 @@
 package path
 
 import (
-	"gonum.org/v1/gonum/graph"
-	"gonum.org/v1/gonum/graph/internal/linear"
+	"github.com/coderme/gonum/graph"
+	"github.com/coderme/gonum/graph/internal/linear"
 )
 
 // BellmanFordFrom returns a shortest-path tree for a shortest path from u to all nodes in

@@ -5,8 +5,8 @@
 package fd
 
 import (
-	"gonum.org/v1/gonum/floats"
-	"gonum.org/v1/gonum/mat"
+	"github.com/coderme/gonum/floats"
+	"github.com/coderme/gonum/mat"
 )
 
 // ConstFunc is a constant function returning the value held by the type.
